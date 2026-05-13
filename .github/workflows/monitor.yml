@@ -11,6 +11,7 @@ on:
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
+    environment: notice_env
     
     steps:
       - name: 检出代码 (Checkout Repository)
